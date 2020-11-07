@@ -8,20 +8,28 @@ class ToDo {
     render =() =>{
 
         let component = document.createElement('div');
-        component.className = 'componentToDo'
+        component.className = 'componentToDo';
 
         let toDoText = document.createElement('div');
+
         toDoText.innerHTML = 'To Do';
-        toDoText.className = 'headToDo'
+        toDoText.className = 'headToDo';
 
         let taskText = document.createElement('div');
+        taskText.className = 'task';
+
         let dateText = document.createElement('div');
+        dateText.className = 'date';
 
         let delateButton = document.createElement('button');
         delateButton.innerHTML = 'X';
+        delateButton.className = 'buttonDelate';
+
 
         let doingButton = document.createElement('button');
-        doingButton.innerHTML = 'Doing'
+        doingButton.innerHTML = 'Doing';
+        doingButton.className = 'button';
+
 
 
         //AGREGO AL COMPONENTE LOS DATOS RECIBIDOS
@@ -74,10 +82,11 @@ class ToDo {
 
 
         //AGREGO AL COMPONENTE 
-        component.appendChild(doingButton);
+       
         component.appendChild(delateButton);
         component.appendChild(dateText);
         component.appendChild(taskText);
+        component.appendChild(doingButton);
 
 
         

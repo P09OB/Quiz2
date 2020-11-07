@@ -1,14 +1,167 @@
-#taskComponent{
-
-    background-color: bisque;
+#componente2{
+    background-color: beige;
 }
 
-#componentDoing{
+#componente{
 
+    display: flex;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    padding: 2%;
+    margin-left: 35%;
+    margin-right: 35%;
+
+}
+
+h4{
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 32px;
+
+}
+
+#inputTask{
+   width: 90%;
+   padding-bottom: 10%;
+   border-radius: 6px;
+   font-size: 14px;
+   border: 1px solid #392f5a;
+   font-family: 'Noto Sans KR', sans-serif;
+}
+
+#buttonTask:hover{
+
+  background: #C0D6DF;
+  color: #FFF;
+
+
+}
+
+#buttonTask{
+
+    margin-top: 3%;
+    height: 30px;
+    margin-left: 2px;
+    border-radius: 6px;
+    border-style: none;
+    background-color:#392f5a;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+
+
+.componentToDo{
+    
+    background-color: coral;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    border-radius: 6px;
+   
+    
+    
+}
+
+.componentDoing{
+    
     background-color: cadetblue;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    border-radius: 6px;
+   
 }
 
-#componenDone{
-
+.componentDone{
+    
     background-color: cornflowerblue;
+    width: 200px;
+    margin-bottom: 30px;
+    border-radius: 6px;
+
+    
 }
+
+#general{
+    display: flex;
+    justify-content: center;
+    background-color: beige;
+    
+}
+
+.buttonDelate{
+
+    border-style: none;
+    background-color:#392f5a;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-left: 86%;
+    margin-top: 4%;
+
+
+
+}
+
+#buttonDelate:hover{
+
+    background: #C0D6DF;
+    color: #FFF;
+  
+  
+  }
+
+#nameToDo{
+    width: 300px;
+}
+
+#nameDoing{
+
+    width: 300px;
+
+}
+
+#nameDoing{
+
+    width: 300px;
+
+}
+
+.date{
+
+    padding-bottom: 5px;
+
+}
+
+.button{
+
+    margin-top: 15px;
+    margin-bottom: 3px;
+    margin-left: 3px;
+
+    border-style: none;
+    background-color:#392f5a;
+    color: white;
+    font-family: 'Noto Sans KR', sans-serif;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+

@@ -8,17 +8,16 @@ const database = firebase.database();
 
 newTask =() =>{
 
-    if(inputTask.value ===  ''){
+    if(inputTask.value === ''){
         alert('Los campos estan vacios');
         return;
     } 
 
     var now = new Date();
-    console.log(now.toUTCString());
     let reference = database.ref('task/toDo').push()
 
     let getTask = inputTask.value;
-    let date = now.toUTCString();
+    let date = now.getHours()+ ":"+ now.getMinutes();;
 
     let objectTask = {
         id: reference.key,

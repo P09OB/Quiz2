@@ -8,15 +8,19 @@ class Doing {
     render =() =>{
 
         let component = document.createElement('div');
+        component.className = 'componentDoing';
         let taskText = document.createElement('div');
         let dateText = document.createElement('div');
+        dateText.className = 'date';
         let delateButton = document.createElement('button');
         delateButton.innerHTML = 'X';
+        delateButton.className = 'buttonDelate'
         let doneButton = document.createElement('button');
         doneButton.innerHTML = 'Done';
+        doneButton.className = 'button';
         let toDoButton = document.createElement('button');
         toDoButton.innerHTML = 'To Do';
-     
+        toDoButton.className = 'button';
 
         //AGREGO AL COMPONENTE LOS DATOS RECIBIDOS
 
@@ -89,11 +93,13 @@ class Doing {
 
         
         
-        component.appendChild(doneButton);
-        component.appendChild(toDoButton);
+        
         component.appendChild(delateButton);
         component.appendChild(dateText);
         component.appendChild(taskText);
+        component.appendChild(toDoButton);
+        component.appendChild(doneButton);
+
 
 
 

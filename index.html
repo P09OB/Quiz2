@@ -1,44 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="Styles/Style.css" rel="stylesheet">
-    <title>Global Solution S.A.S</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="Styles/Style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Noto+Sans+KR:wght@300;500&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap" rel="stylesheet">
+
+  <title>Global Solution S.A.S</title>
 </head>
+
 <body>
+  <div id="componente2">
+  <div id="componente">
 
-    <div id="componente">
+    <h3>Global Solution S.A.S</h3>
 
-        <h3>Global Solution S.A.S</h3>
+    <input id="inputTask" placeholder="Descripción de la tarea" type="text">
+    <button id="buttonTask">Nueva Tarea</button>
 
-        <input id= "inputTask" placeholder= "Descripción de la tarea" type= "text">
-        <button id= "buttonTask">Nueva Tarea</button>
+  </div>
+</div>
 
-    </div>
+  <div id="general">
 
-    <div id="taskComponent">
-
+    <div id="nameToDo">
       <h4>To Do</h4>
-
-
+      <div id="taskComponent"></div>
     </div>
 
-    <div id="componentDoing">
+    <div id="nameDoing">
       <h4>Doing</h4>
-
-
+      <div id="componentDoing"></div>
     </div>
 
-    <div id="componenDone">
-
-      <h4>Done</h4>
-
-
-
+    <div id="nameDone">
+     <h4>Done</h4>
+      <div id="componenDone"></div>
     </div>
-    
+
+  </div>
+
 </body>
+
 </html>
 
 
@@ -59,7 +66,7 @@
   firebase.initializeApp(firebaseConfig);
 </script>
 
-<script src = "Js/Done.js"></script>
-<script src = "Js/Doing.js"></script>
-<script src = "Js/ToDo.js"></script>
-<script src = "Js/index.js"></script>
+<script src="Js/Done.js"></script>
+<script src="Js/Doing.js"></script>
+<script src="Js/ToDo.js"></script>
+<script src="Js/index.js"></script>
